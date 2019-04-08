@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let str1 = prompt("Nhập chuỗi a;");
+        let str2 = prompt("Nhập chuỗi b ;");
+        let str3 = prompt("Nhập chuỗi c ;");
+       let arr1 = [];
+       let arr2 = [];
+       let arr3 = [];
+       for(let i = 0; i < str1.length; i ++) {
+           arr1.push(str1[i]);
+           arr2.push(str2[i]);
+           arr3.push(str3[i]);
+       }
+      arr3 = arr3.concat(arr2, arr1);
+        alert(arr3.join(""));
+
+    </script>
+</body>
+</html>

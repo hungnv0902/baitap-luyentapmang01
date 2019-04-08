@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let arr = [];
+        let a = 0;
+        for (let i = 0; i < 10; i ++) {
+            arr.push(Math.floor(Math.random()*30));
+            if (arr[i] >= 10){
+                a ++;
+            }
+        }
+        alert("Có " + a + " số lớn hơn hoặc bằng 10")
+
+    </script>
+</body>
+</html>

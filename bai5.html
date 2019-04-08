@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let number = prompt("Nhập vào 1 mảng số nguyên");
+        let str = number.toString();
+        console.log(str.length);
+        let i = 0;
+        let a  = 0;
+        for (i = 0; i < str.length; i ++) {
+            if (str[i] == "-") {
+                a ++
+            }
+        }
+        alert("Số lượng số nguyên âm là " + a)
+    </script>
+</body>
+</html>

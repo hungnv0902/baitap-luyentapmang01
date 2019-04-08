@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ <script>
+     let arr= [];
+     let i = 0;
+     let v = parseInt(prompt("Nhập số V"));
+     for (i = 0; i < 10; i ++) {
+         arr.push(Math.floor(Math.random() * 10));
+
+         }
+
+     }
+     alert(arr)
+
+     if (arr.indexOf(v) !== -1) {
+         arr.splice(arr.indexOf(v),1)
+     }
+     console.log(arr);
+
+
+
+ </script>
+</body>
+</html>
